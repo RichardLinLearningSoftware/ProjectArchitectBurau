@@ -1,0 +1,17 @@
+html{
+    height: 100vh;
+}
+
+*{
+    color: white;
+    font-family: jetmono;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(48, 176, 240, 1) 0%, rgba(150, 208, 255, 1) 50%);
+}
+
+@font-face {
+    font-family: jetmono;
+    src: url(../assets/fonts/JetBrainsMono-Regular.ttf);
+}
