@@ -26,9 +26,8 @@
 
         <!-- Website content container -->
         <div class="content-container">
-            <h2>Wow</h2>
             <?php 
-                //include 'pages/projects.php';
+                include 'pages/projects.php';
             ?>
         </div>
     </div>

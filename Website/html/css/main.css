@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background: linear-gradient(0deg, rgba(48, 176, 240, 1) 0%, rgba(150, 208, 255, 1) 50%);
+    background: linear-gradient(0deg,rgba(24, 168, 240, 1) 0%, rgba(92, 182, 255, 1) 50%);
 }
 
 @font-face {
@@ -17,12 +17,15 @@ body{
 }
 
 .website-row-container{
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
 .sidebar-container{
+    padding-left: 25px;
+    box-sizing: border-box;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -31,12 +34,9 @@ body{
 }
 
 .content-container{
-    outline-width: 1px;
-    outline-color: black;
-    outline-style: solid;
     width: 75%;
-    padding: 0 25px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .website-logo{
@@ -51,4 +51,24 @@ body{
 
 .mail-link:hover{
     text-decoration: underline;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+}
+
+.project-box-container{
+    transition: 0.5s;
+    width: 350px;
+    aspect-ratio: 3 / 2;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.project-box-container:hover{
+    width: 360px;
 }
