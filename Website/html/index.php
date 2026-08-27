@@ -11,6 +11,26 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="website-row-container">
+        <div class="sidebar-container">
+            <img class="website-logo" src="assets/images/logo-livingshapes.png" alt="Logo">
+
+            <div class="extra-info-container">
+                <h2>Interested?</h2>
+                <div>
+                    <b>Drop us an email at:</b>
+                    <a class="mail-link" href= "mailto:newbusiness@livingshapes.eu">newbusiness@livingshapes.eu</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Website content container -->
+        <div class="content-container">
+            <h2>Wow</h2>
+            <?php 
+                //include 'pages/projects.php';
+            ?>
+        </div>
+    </div>
 </body>
 </html>
