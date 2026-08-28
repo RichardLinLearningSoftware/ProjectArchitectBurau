@@ -62,13 +62,59 @@ body{
 }
 
 .project-box-container{
+    color: black;
     transition: 0.5s;
     width: 350px;
-    aspect-ratio: 3 / 2;
+    height: 230px;
     background-color: white;
     border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-box-container:hover{
     width: 360px;
+    height: 235px;
+}
+
+.project-image {
+    height: 100%;
+    width: fit-content;
+}
+
+.project-image-2 {
+    height: 100%;
+    width: fit-content;
+    position: relative;
+    top: -100%;
+    transition: 1s;
+}
+
+.project-box-container:hover .project-info-container{
+    top: -378px;
+}
+
+.project-box-container:hover .project-image-2{
+    opacity: 0;
+}
+
+.project-info-container{
+    transition: 0.5s;
+    padding: 50px 15px;
+    color: black;
+    position: relative;
+    top: -230px;
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.project-title{
+    color: black;
+}
+
+.project-location{
+    color: black;
 }
