@@ -8,6 +8,9 @@ html{
 }
 
 body{
+    -webkit-user-select: none;
+    user-select: none;
+    overflow: hidden;
     background: linear-gradient(0deg,rgba(24, 168, 240, 1) 0%, rgba(92, 182, 255, 1) 50%);
 }
 
@@ -62,6 +65,7 @@ body{
 }
 
 .project-box-container{
+    position: relative;
     color: black;
     transition: 0.5s;
     width: 350px;
@@ -88,7 +92,7 @@ body{
     width: fit-content;
     position: relative;
     top: -100%;
-    transition: 1s;
+    transition: opacity 0.5s;
 }
 
 .project-box-container:hover .project-info-container{
@@ -100,7 +104,6 @@ body{
 }
 
 .project-info-container{
-    transition: 0.5s;
     padding: 50px 15px;
     color: black;
     position: relative;
