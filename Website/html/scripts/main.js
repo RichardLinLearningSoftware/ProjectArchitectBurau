@@ -8,6 +8,7 @@ function MouseDown(e) {
     dragging = document.getElementById(e.id);
 }
 window.onmouseup = () => {
+    dragging.style.zIndex = 0;
     dragging.style.transition = 0.5+"s";
     holding = false;
     dragging = "none";
